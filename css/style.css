@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3525A;
+    --primary: #041879;
     --secondary: #F6F6F6;
     --light: #FFFFFF;
-    --dark: #152440;
+    --dark: #03183e;
 }
 
 h1,
@@ -114,7 +114,7 @@ h6,
     }
 }
 
-.carousel-caption {
+.blog-4-caption {
     top: 0;
     left: 0;
     right: 0;
@@ -124,24 +124,25 @@ h6,
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h5 {
+    .blog-4-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
     }
 
-    .carousel-caption h1 {
+    .blog-4-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
     }
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.blog-4-control-prev,
+.blog-4-control-next {
+
     width: 10%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.blog-4-control-prev-icon,
+.blog-4-control-next-icon {
     width: 3rem;
     height: 3rem;
 }
@@ -213,14 +214,14 @@ h6,
     left: 0;
 }
 
-.testimonial-carousel .owl-nav {
+.testimonial-blog-4 .owl-nav {
     margin-top: 30px;
     display: flex;
     justify-content: start;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next{
+.testimonial-blog-4 .owl-nav .owl-prev,
+.testimonial-blog-4 .owl-nav .owl-next{
     position: relative;
     margin: 0 5px;
     width: 45px;
@@ -235,12 +236,12 @@ h6,
     transition: .5s;
 }
 
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
+.testimonial-blog-4 .owl-nav .owl-prev:hover,
+.testimonial-blog-4 .owl-nav .owl-next:hover {
     color: var(--dark);
 }
 
-.testimonial-carousel .owl-item img {
+.testimonial-blog-4 .owl-item img {
     width: 90px;
     height: 90px;
 }
