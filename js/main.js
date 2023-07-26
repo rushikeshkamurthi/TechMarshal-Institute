@@ -42,8 +42,8 @@
     });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    // Testimonials blog-4
+    $(".testimonial-blog-4").owlblog-4({
         autoplay: true,
         smartSpeed: 1000,
         items: 1,
